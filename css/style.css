@@ -1,5 +1,6 @@
 body {
-    font-family: 'Roboto', 'Raleway', sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
 ul {
@@ -10,7 +11,7 @@ a {
     text-decoration: none;
 }
 
-.visually-hidden {
+/* .visually-hidden { 
     position: absolute;
     width: 1px;
     height: 1px;
@@ -21,7 +22,7 @@ a {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}
+}*/
 
 /* =========================HEADER=========================== */
 
@@ -31,7 +32,7 @@ a {
 .header-logo {
     font-weight: 700;
     font-size: 18px;
-    line-height: 117%;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -40,7 +41,7 @@ a {
 .header-logo-span {
     font-weight: 700;
     font-size: 18px;
-    line-height: 117%;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
@@ -58,13 +59,13 @@ a {
 .header-menu-link {
     font-weight: 500;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
 .header-menu-link:hover,
-.header-menu-link:active {
+.header-menu-link:focus {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -83,7 +84,7 @@ a {
 
 .header-contact-link {
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -115,6 +116,18 @@ a {
 }
 
 .hero-order-button {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+.hero-order-button:hover,
+.hero-order-button:focus {
+    background-color: #404BBF;
+    cursor: pointer;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -158,7 +171,7 @@ a {
 /* =========================TEAM=========================== */
 
 .team {
-    background-color: #f4f4fd;;
+    background-color: #F4F4FD;
 }
 
 .team-title {
@@ -172,6 +185,7 @@ a {
 }
 
 .team-list { 
+    background-color: #FFFFFF;
 }
 
 .team-item {
